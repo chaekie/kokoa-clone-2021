@@ -14,7 +14,7 @@
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>12:47</span>
       </div>
       <div class="status-bar__column">
         <span>110%</span>
@@ -39,12 +39,26 @@
         If you have a Kokoa Account, log in with your email or phone number.
       </p>
     </header>
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
-      <input type="submit" value="Log in" />
-      <input type="submit" value="Sign up" />
-      <a href="#">Find Kokoa Acount or Password</a>
+    <form action="friends.html" method="get" class="login-form">
+      <input
+        class="login-form__input"
+        name="username"
+        required
+        type="text"
+        placeholder="Email or phone number"
+        minlength="4"
+      />
+      <input
+        class="login-form__input"
+        name="password"
+        required
+        type="password"
+        placeholder="Password"
+        minlength="4"
+      />
+      <input class="login-form__btn" type="submit" value="Log in" />
+      <input class="login-form__btn" type="submit" value="Sign up" />
+      <a href="#" class="login-form__a">Find Kokoa Acount or Password</a>
     </form>
     <script
       src="https://kit.fontawesome.com/ef81e253aa.js"
