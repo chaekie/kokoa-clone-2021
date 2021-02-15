@@ -53,3 +53,11 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__column i {
+  color: var(--dark-gray);
+}
+
+.user-component__subtitle i {
+  color: #ff6756;
+}
