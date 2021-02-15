@@ -1,0 +1,22 @@
+.badge {
+  background-color: tomato;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.badge__sm {
+  width: 5px;
+  height: 5px;
+}
+
+.badge__sm__screen-header {
+  position: absolute;
+  right: 15px;
+  top: 25px;
+}

@@ -3,12 +3,31 @@
   display: block;
   background-color: #fafafa;
   padding: 10px 0px;
+  margin-bottom: 10px;
+  margin-top: -10px;
 }
 
 #friends-display-link i {
-  color: rgba(0, 0, 0, 0.2);
+  color: var(--light-gray);
 }
 
 .fa-chevron-right {
   padding-left: 7px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-sccreen__channel {
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+
+.friends-sccreen__channel-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--dark-gray);
 }
